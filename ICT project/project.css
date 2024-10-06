@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    width: 100%;
+    height: 200%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(235, 238, 241);
+}
+
+.navbar{
+    background-color: #ffcb04;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-around;
+}
+.logo img{
+    
+    height: 70px;
+    width: 70px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.logo:hover img{
+    scale: 1.1;
+}
+.location{
+    display: flex;
+    gap: .5rem;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+
+}
+.location:hover i{
+    scale: 1.15;
+}
+.location i{
+    color: #d40000;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+.location i:hover{
+    color: #d40000ab;
+    
+}
+.search{
+    display: flex;
+    gap: 2rem;
+    font-size: 1.6rem;
+    color: #d40000;
+    cursor: pointer;
+}
+
+
+.search i:hover{
+    color: #d40000ab;
+}
+
+
+
+.deals{
+    width: 90%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 4rem;
+    margin-top:5px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.set1{
+    display: flex;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+.set2{
+    display:flex;
+    gap: 1rem;
+}
+.set1 .text1{
+    width: 90px;
+    height: 40px;
+    background-color: #ffcb04;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    cursor: pointer;
+    
+}
+.set1 .text2{
+    width: 80px;
+    height: 40px;
+    background-color: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.set1 .text3{
+    width: 150px;
+    height: 40px;
+    background-color: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.set2 .text4{
+    width: 150px;
+    height: 40px;
+    background-color: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.set2 .text5{
+    width: 120px;
+    height: 40px;
+    background-color: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.set1 .text2:hover{
+     background-color: #ffcb04;
+
+}
+.set1 .text3:hover{
+    background-color: #ffcb04;
+    
+}
+.set2 .text4:hover{
+    background-color: #ffcb04;
+    
+}
+.set2 .text5:hover{
+    background-color: #ffcb04;
+    
+}
+
+
+ .menu{
+
+    width: 250px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 30px;
+    border: solid 1px rgba(225, 216, 216, 0.721);
+margin-top: 100px;
+margin-left: 10px;
+margin-right: 10px;
+box-shadow: 3px 3px rgb(200, 199, 199);
+
+ }
+
+ .menu:hover{
+    border: 2px solid #ffcb04;
+    
+ }
+
+
+ .menu h2,h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ } 
+ .menu h4{
+    font-size: 18px;
+ }   
+ .menu p{
+    font-size: 13px;
+    font-family: sans-serif;
+    
+ } 
+ .menu img{
+    width: 230px;
+    height: 230px;
+    border-radius: 20px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+   transition: 0.4s;
+ }
+ 
+
+ .button{
+    margin-top: 35px;
+    
+ }
+ .button h4{
+    font-size: 15px;
+    color: #d40000;
+ }
+ .button button{
+    border: none;
+    width: 120px;
+    height: 40px;
+    background-color: #d40000;
+    border-radius: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-top: 5px;
+ }
+ .button button:hover{
+    background-color: #ffcb04;
+    color: black;
+ }
+ .mainmenu{
+    display: flex;
+    gap: 1rem;
+ }
+ .container {
+    display: flex;
+    
+}
+.end{
+    margin: 100px;
+background-color: white;
+    border: solid; 
+    border-color: white;
+    border-radius: 20px;
+    display:flex;
+    box-shadow: 3px 3px rgb(201, 201, 201);
+}
+.picend{
+    padding: 10px;
+        /* margin-right: 400px; */
+}
+.num{
+    padding-right: 200px;
+padding: 10px;
+}
+  .timing{
+    padding: 10px;
+    margin-right: 10px;
+    padding-right: 10px;
+
+  }
+.about{
+    font-size: 28px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #d40000;
+    text-decoration:none;
+}
+.about1{
+    margin-top: 30px;
+    padding: 10px;
+    text-align:center;
+    font-weight: bold;
+}
+.content{ 
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    border: solid;
+    border-radius: 20px;
+    box-shadow: 5px 5px rgb(215, 215, 215);
+    
+    border-color:rgb(231, 230, 230)
+    
+}
+ 
